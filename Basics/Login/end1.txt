@@ -1,0 +1,1 @@
+This is the of the first basics with index.htm file and style.css file
