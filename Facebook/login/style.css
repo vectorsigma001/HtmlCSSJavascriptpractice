@@ -9,54 +9,77 @@ body{
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  
+  background-color: whitesmoke;
 }
 section{
   display:flex;
   flex-direction: row;
-  column-gap:400px;
-  border:2px solid green;
+  column-gap:140px;
   height: 600px;
   width:1000px;
+  margin-left:-150px;
   
 }
 .container1{
-  border: 2px solid red;
+  display:flex;
+  flex-direction:column;
+  flex:wrap;
+  width: 1000px;
+  height: 360px;
+  margin-top: 180px;
+  border-radius:5px;
 }
 .container1 h1{
+  color:#0575f5;
+  font-size: 55px;
+  font-family: HelveticaNeueW01-55Roma, HelveticaNeueW02-55Roma, HelveticaNeueW10-55Roma, sans-serif;
+  width:425px;
+  margin-left: 90px;
   
 }
+.container1 p{
+  font-family:  HelveticaNeueW01-55Roma, HelveticaNeueW02-55Roma, HelveticaNeueW10-55Roma, sans-serif;
+  font-size: 26px;
+  color: black;
+  margin-left: 90px;
+}
 .container2{
-  border: 5px solid darkred;
+  box-shadow: 0px 0px 1px 0px #050505;
+  border: 10px solid hsla(0,0%,100%,.5);
   display:flex;
-  width: 500px;
-  height: 460px;
-  margin-top: 100px;
+  width: 400px;
+  height: 360px;
+  margin-top: 110px;
+  border-radius:5px;
+  background-color:white;
+  
 }
 .container2 form{
 display:flex;
   flex-wrap: wrap;
   flex-direction:column;
-  
-  margin-top: 5px;
+  padding: -20px;
+  margin-top: 2px;
+  margin-left: -6px;
+  margin-right:-6px;
 }
-.container2 form input{
-  padding-top: -60px;
+.container2 form input{ 
+  padding-top: -80px;
 width: 350px;
   height: 50px;
   font-weight:500;
-  font-size: 18px;
+  font-size: 17px;
     font-family: HelveticaNeueW01-55Roma, HelveticaNeueW02-55Roma, HelveticaNeueW10-55Roma, sans-serif;
   margin-left:20px;
   margin-top: 11px;
   padding-left: 15px;
   border-radius: 7px;
-  border: 0.5px soid black;
+  border: 1px soid black;
    
 }
 
 .container2 button{
- width:350px;
+ width:370px;
   height:50px;
   font-weight: bolder;
   font-size: 18px;
@@ -78,4 +101,22 @@ width: 350px;
   text-align: center;
   color:rgb(5, 113, 255);
   text-decoration: none;
+}
+.container4 p{
+  margin-top: 30px;
+  padding-left:40px ;
+  font-family:HelveticaNeueW01-55Roma, HelveticaNeueW02-55Roma, HelveticaNeueW10-55Roma, sans-serif;
+  font-size:15px;
+}
+footer{
+  margin-top: 150px;
+  height:150px;
+  width:100%;
+  background-color: white;
+  box-shadow: 0 0 0px 0px black;
+}
+footer p{
+  display:flex;
+  justify-content: center;
+  align-items: center;
 }
