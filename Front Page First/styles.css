@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,100&family=Playfair+Display:ital@1&family=Poppins:wght@100&family=Roboto:wght@500&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins';
+}
+header{
+  background-color: black;
+  position: sticky;
+  top:0px;
+}
+header .navbar{
+  display:flex;
+  flex-direction:row;
+}
+header .navbar h3{
+  display:grid;
+  justify-content:start;
+  color: white;
+  margin-left:15px;
+}
+header .navbar ul{
+  margin-left:25%;
+  display: flex;
+  flex-direction: row;
+  column-gap:30px;
+}
+header .navbar ul li a{
+  color:white;
+  list-style: none;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: bolder;
+}
+header .navbar ul li a:hover{
+  color:red;
+}
+header .headerbutton{
+  display: flex,grid;
+  justify-content:end;
+  margin-left: 25%;  
+}
+header .headerbutton .btn-1{ 
+  cursor:pointer;
+  font-weight: bolder;
+}
+header .headerbutton .btn-1:hover{
+  background-color:red;
+  color:white;
+}
+header .headerbutton .btn-2{
+
+  cursor:pointer;
+  font-weight:bolder;
+}
+header .headerbutton .btn-2:hover{
+  background-color: red;
+  color:white;
+}
+main{
+ height:100%;
+  width:100%;
+  position: relative;
+  text-align: center;
+  color: white;
+}
+main img{
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size: color;
+  height:100%;
+  width:100%;
+}
+main #firsth1{
+  position: absolute;
+  bottom: 750px;
+  left:200px;
+  font-family:calibric;
+  font-size:60px;
+  font-weight:bolder;
+}
+main #secondh1{
+  position:absolute;
+  bottom:700px;
+  left:200px;
+  font-family:calibric;
+  font-size:60px;
+  font-weight:bolder;  
+}
+.btn-3{
+  position:absolute;
+  bottom:600px;
+  left:400px; 
+}
+.btn-3 button{
+  margin-left:10px;
+}
+.btn-3 button{
+  font-size: 30px;
+  padding-left:10px;
+  padding-right: 10px;
+  font-weight: bolder;
+  border-radius:10px;
+  border-style:none;
+}
+.btn-3 button:hover{
+  background-color:red;
+  color:white;
+  cursor:pointer;
+}
+footer{
+  background-color:black;
+  position: sticky;
+  color:white;
+  top:0%;
+}
+footer p{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
