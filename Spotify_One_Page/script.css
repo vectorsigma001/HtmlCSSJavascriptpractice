@@ -4,25 +4,31 @@
   font-family: 'Poppins';
 }
 .wrapper{
-  width: 1345px;
+  width: 1343px;
   border: 2px solid red;
   height: 1000px;
-  
 }
 .leftcontainer{
   height: 100%;
   border: 2px solid red;
   width:32%;
+  position:fixed;
 }
 .rightcontainer{
+  border: 2px solid blue;
   position: absolute;
-  border: 2px solid red;
   top: 2px;
   left: 32%;
-  width: 900px;
+  width: 913px;
+  height: 1024px;
 }
 .rightcontainer .navbar{
   background-color: yellow;
+  position: fixed;
+  border: 2px solid red;
+  top: 2px;
+  left: 32%;
+  width: 911px;
 }
 .rightcontainer .navbar ul{
   display: flex; 
@@ -37,9 +43,10 @@
 .rightcontainer .navbar ul #left_right_logo{
   display: flex;
   margin-left: 20px;
-  margin-right: 510px;
+  margin-right: 520px;
   padding-bottom: 10px;
 }
 .rightcontainer .navbar ul li a{
   
 }
+
